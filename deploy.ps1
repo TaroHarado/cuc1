@@ -32,3 +32,4 @@ git push -u origin main
 
 Write-Host "Готово! Проект загружен на https://github.com/TaroHarado/cuc1" -ForegroundColor Green
 
+

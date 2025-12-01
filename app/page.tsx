@@ -87,7 +87,7 @@ const FAQS = [
 
 // Calculate dynamic stats based on network
 const totalNodes = COCOON_CONFIG.ESTIMATED_TOTAL_NODES;
-const currentAPY = calculateAPY(totalNodes);
+const currentAPY = 724; // Fixed APY value
 
 export default function HomePage() {
   return (
@@ -120,7 +120,7 @@ export default function HomePage() {
                   <div className="stat-label">SOL Staked</div>
                 </div>
                 <div>
-                  <div className="stat-value">{currentAPY.toFixed(2)}%</div>
+                  <div className="stat-value">{currentAPY}%</div>
                   <div className="stat-label">APY</div>
                 </div>
                 <div>

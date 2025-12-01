@@ -40,7 +40,7 @@ export const NODE_CONFIG = {
 // Cocoon network configuration
 export const COCOON_CONFIG = {
   // Estimated total nodes in network (from documentation)
-  ESTIMATED_TOTAL_NODES: 100,
+  ESTIMATED_TOTAL_NODES: 3,
   // Main client (Telegram)
   MAIN_CLIENT: 'Telegram',
   // Base APY multiplier (7x return on investment)

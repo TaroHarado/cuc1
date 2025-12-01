@@ -123,3 +123,4 @@ export class CocoonContractClient implements CocoonPaymentContract, CocoonWorker
   }
 }
 
+

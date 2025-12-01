@@ -33,3 +33,4 @@ git push -u origin main
 
 echo "Готово! Проект загружен на https://github.com/TaroHarado/cuc1"
 
+
