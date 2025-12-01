@@ -306,12 +306,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## ⚠️ Risk Disclaimer
-
-**High Risk Investment**: This service involves cryptocurrency and high-risk investments. Past performance does not guarantee future results. Only invest what you can afford to lose. Please review our Terms of Service and do your own research.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our contributing guidelines first.

@@ -83,22 +83,6 @@ export function FAQ() {
           </motion.div>
         ))}
       </div>
-
-      <motion.div
-        className="mt-12"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-      >
-        <Card className="bg-yellow-500/10 border-yellow-500/30">
-          <p className="text-sm text-yellow-200">
-            <strong className="text-yellow-100">Risk Disclaimer:</strong> This service involves cryptocurrency and
-            high-risk investments. Past performance does not guarantee future results.
-            Only invest what you can afford to lose. Please review our Terms of Service
-            and do your own research.
-          </p>
-        </Card>
-      </motion.div>
     </>
   );
 }

@@ -255,14 +255,6 @@ export default function HomePage() {
               {FAQS.map((faq, index) => (
                 <FAQItem key={index} question={faq.question} answer={faq.answer} />
               ))}
-              <div className="card" style={{ marginTop: '3rem', background: '#fef3c7', borderColor: '#fde68a' }}>
-                <p style={{ fontSize: '0.875rem', color: '#92400e' }}>
-                  <strong style={{ color: '#78350f' }}>Risk Disclaimer:</strong> This service involves cryptocurrency and
-                  high-risk investments. Past performance does not guarantee future results.
-                  Only invest what you can afford to lose. Please review our Terms of Service
-                  and do your own research.
-                </p>
-              </div>
             </div>
           </div>
         </section>
