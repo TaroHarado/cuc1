@@ -123,6 +123,17 @@ async function allocateH100Instance(
 }
 
 /**
+ * Install worker image on H100 instance
+ */
+async function installWorkerImage(
+  instance: any,
+  configuredImage: Buffer
+): Promise<void> {
+  // TODO: Install configured worker image on instance
+  // This would copy the image to the instance and set it up
+}
+
+/**
  * Configure Intel TDX
  * 
  * Based on Cocoon documentation:
